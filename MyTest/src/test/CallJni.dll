@@ -1,0 +1,10 @@
+#include <com_test_CallJni.h>
+/*
+ * Class:     com_test_CallJni
+ * Method:    doSomeThing
+ */
+JNIEXPORT void JNICALL Java_test_CallJni_doSomeThing
+  (JNIEnv *, jclass){
+      int *i;
+      *i = 100;
+  }
